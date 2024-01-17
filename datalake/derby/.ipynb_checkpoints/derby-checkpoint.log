@@ -1,0 +1,13 @@
+----------------------------------------------------------------
+Fri Dec 29 13:39:07 UTC 2023:
+Booting Derby version The Apache Software Foundation - Apache Derby - 10.14.2.0 - (1828579): instance a816c00e-018c-b5cc-ced3-000030f40bdd 
+on database directory /mnt/datalake/derby/metastore_db with class loader jdk.internal.loader.ClassLoaders$AppClassLoader@5ffd2b27 
+Loaded from file:/usr/local/spark-3.2.0-bin-hadoop3.2/jars/derby-10.14.2.0.jar
+java.vendor=Ubuntu
+java.runtime.version=11.0.20.1+1-post-Ubuntu-0ubuntu120.04
+user.dir=/mnt/notebooks/ingestion/olist
+os.name=Linux
+os.arch=amd64
+os.version=5.15.0-91-generic
+derby.system.home=/mnt/datalake/derby
+Database Class Loader started - derby.database.classpath=''

@@ -1,0 +1,13 @@
+jproperties
+pymongo
+delta-spark==2.4.0
+#deltalake==0.14.0
+#deltalake==0.5.6
+#delta-spark~=1.2.0
+#deltalake
+pandas==2.0.3
+confluent-kafka==2.3.0
+avro-python3==1.10.2
+
+
+
