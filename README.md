@@ -8,7 +8,7 @@ O repositório tem como objetivo fornecer um ambiente de desenvolvimento para Py
 Para a criação da imagem docker utilizada, é necessário utilizar o comando docker build.
 O comando docker build le arquivo DockerFile e cria uma imagem seguinto os passos listados no arquivo.
 No caso do arquivo DockerFile, existem várias bibliotecas python que deve ser instaladas, então o arquivo requirements.txt contem a lista dessas bibliotecas, no caso de alguma mudança nas versões ou mesma  adição de uma nova biblioteca, o arquivo requirements.txt pode ser facilmente alterado.
-docker build -t NOME_DA_IMAGEM .  , com o nome da imagem - pysark-3.4.0-deltalake
+docker build -t NOME_DA_IMAGEM .  , com o nome da imagem - pysark-3.2.0-deltalake
 O comando deve ser executado na mesma pasta do arquivo Dockerfile 
 
 

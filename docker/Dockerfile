@@ -1,4 +1,4 @@
-FROM jupyter/datascience-notebook:python-3.11
+FROM jupyter/datascience-notebook:python-3.8.4
 
 SHELL ["/bin/bash", "-o", "pipefail", "-c"]
 
@@ -8,15 +8,15 @@ USER root
 # Default values can be overridden at build time
 # (ARGS are in lower case to distinguish them from ENV)
 # https://docs.delta.io/latest/releases.html
-ARG spark_version="3.4.0"
-ARG hadoop_version="3"
-#ARG spark_checksum="2385CB772F21B014CE2ABD6B8F5E815721580D6E8BC42A26D70BBCDDA8D303D886A6F12B36D40F6971B5547B70FAE62B5A96146F0421CB93D4E51491308EF5D5"
+ARG spark_version="3.2.0"
+ARG hadoop_version="3.2"
+ARG spark_checksum="2385CB772F21B014CE2ABD6B8F5E815721580D6E8BC42A26D70BBCDDA8D303D886A6F12B36D40F6971B5547B70FAE62B5A96146F0421CB93D4E51491308EF5D5"
 ARG openjdk_version="11"
 
 
 
 # Add Dependencies for PySpark
-RUN apt-get update && apt-get install -y vim wget software-properties-common ssh net-tools ca-certificates python3-pip python3-numpy python3-matplotlib python3-scipy python3-pandas python3-simpy apt-utils
+RUN apt-get update && apt-get install -y vim wget software-properties-common ssh net-tools ca-certificates python3-pip python3-numpy python3-matplotlib python3-scipy python3-pandas python3-simpy
 
 RUN apt-get -qy full-upgrade && \
     apt-get install -qy curl && \
