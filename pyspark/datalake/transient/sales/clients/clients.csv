@@ -1,0 +1,9 @@
+id_cliente;nome_cliente;endereço_cliente;contato_cliente;situacao_cliente
+1;'joão da silva';'rua azaleia 100';'joao.silva@gmail.com';'ativo'
+2;'jair antunes';'rua jasmins 100';'joao.silva@gmail.com';'ativo'
+3;'roberto garcia';'rua rosas 100';'joao.silva@gmail.com';'ativo'
+4;'pedro mestre';'rua azaleia 100';'joao.silva@gmail.com';'ativo'
+5;'Estevão Rogerio';'rua Cristovam Colombo 100';'joao.silva@gmail.com';'ativo'
+6;'Juliana Alcantara';'rua Juscelino Oliveria 100';'joao.silva@gmail.com';'ativo'
+7;'Maria Joaquina';'rua azaleia 100';'joao.silva@gmail.com';'ativo'
+8;'Suzana Portugal';'rua jasmins 100';'joao.silva@gmail.com';'ativo'
